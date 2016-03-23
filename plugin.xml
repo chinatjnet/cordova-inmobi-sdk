@@ -25,17 +25,19 @@
      </platform>
 
      <platform name="ios">
-         <header-file src="src/ios/Headers/IMBanner.h"/>
-         <header-file src="src/ios/Headers/IMBannerDelegate.h"/>
-         <header-file src="src/ios/Headers/IMCommonConstants.h"/>
-         <header-file src="src/ios/Headers/IMCustomNative.h"/>
-         <header-file src="src/ios/Headers/IMInterstitial.h"/>
-         <header-file src="src/ios/Headers/IMInterstitialDelegate.h"/>
-         <header-file src="src/ios/Headers/IMNative.h"/>
-         <header-file src="src/ios/Headers/IMNativeDelegate.h"/>
-         <header-file src="src/ios/Headers/IMRequestStatus.h"/>
-         <header-file src="src/ios/Headers/IMSdk.h"/>
-         <source-file src="src/ios/libInMobi-5.0.2.a" framework="true"/>
+         <header-file src="src/ios/IMBanner.h"/>
+         <header-file src="src/ios/IMBannerDelegate.h"/>
+         <header-file src="src/ios/IMConstants.h"/>
+         <header-file src="src/ios/IMError.h"/>
+         <header-file src="src/ios/IMIncentivisedDelegate.h"/>
+         <header-file src="src/ios/IMInterstitial.h"/>
+         <header-file src="src/ios/IMInterstitialDelegate.h"/>
+         <header-file src="src/ios/IMNative.h"/>
+         <header-file src="src/ios/IMNativeDelegate.h"/>
+         <header-file src="src/ios/InMobi.h"/>
+         <header-file src="src/ios/InMobiAnalytics.h"/>
+
+         <source-file src="src/ios/libInMobi-4.5.3.a" framework="true"/>
     </platform>
 
 </plugin>
